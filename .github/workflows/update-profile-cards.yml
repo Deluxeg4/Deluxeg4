@@ -1,0 +1,45 @@
+name: Update profile cards
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  push:
+    paths:
+      - ".github/workflows/update-profile-cards.yml"
+  workflow_dispatch:
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    strategy:
+      max-parallel: 1
+      matrix:
+        card: [stats, top-langs, streak]
+        theme: [tokyonight, default]
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Generate GitHub stats cards
+        if: matrix.card != 'streak'
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: ${{ matrix.card }}
+          options: username=${{ github.repository_owner }}&show_icons=true&layout=compact&hide_border=true&theme=${{ matrix.theme }}
+          path: profile/${{ matrix.card }}-${{ matrix.theme }}.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate contribution streak card
+        if: matrix.card == 'streak'
+        uses: DenverCoder1/github-readme-streak-stats@v1
+        with:
+          options: user=${{ github.repository_owner }}&theme=${{ matrix.theme }}&hide_border=true
+          path: profile/streak-${{ matrix.theme }}.svg
+
+      - name: Commit generated card
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          git diff --cached --quiet || (git commit -m "Update profile cards" && git push)
