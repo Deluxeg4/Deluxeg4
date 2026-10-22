@@ -16,8 +16,6 @@ Hi, I’m **G** — a computer science student interested in Minecraft server so
 
 ## 🧰 Tech Stack
 
-**C · C++ · C#**
-
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=c%2Ccpp%2Ccs%2Cjava%2Cgradle%2Cgit%2Cgithub&theme=dark" />
