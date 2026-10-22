@@ -16,11 +16,13 @@ Hi, I’m **G** — a computer science student interested in Minecraft server so
 
 ## 🧰 Tech Stack
 
+**C · C++ · C#**
+
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java,cpp,gradle,git,github&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=java,cpp,gradle,git,github&theme=light" />
-    <img src="https://skillicons.dev/icons?i=java,cpp,gradle,git,github&theme=light" alt="Java, C++, Gradle, Git, and GitHub" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=c,cpp,cs,java,gradle,git,github&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=c,cpp,cs,java,gradle,git,github&theme=light" />
+    <img src="https://skillicons.dev/icons?i=c,cpp,cs,java,gradle,git,github&theme=light" alt="C, C++, C#, Java, Gradle, Git, and GitHub" />
   </picture>
 </p>
 
