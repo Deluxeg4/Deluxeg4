@@ -14,10 +14,6 @@
 
 Hi, I’m **G** — a computer science student interested in Minecraft server software and practical tools for multiplayer communities. 🎮
 
-## Highlights
-
-- [Developer Program Member](https://docs.github.com/developers/overview/github-developer-program)
-
 ## 🧰 Tech Stack
 
 <p align="center">
