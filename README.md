@@ -4,6 +4,8 @@
   <br />
   <a href="https://github.com/Deluxeg4"><img src="https://img.shields.io/badge/GitHub-Deluxeg4-7C83FD?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" /></a>
   <a href="https://2b2t-th.org"><img src="https://img.shields.io/badge/Website-2b2t--th.org-5865F2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website: 2b2t-th.org" /></a>
+  <a href="https://www.youtube.com/@Leaking256"><img src="https://img.shields.io/badge/YouTube-Leaking256-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube: Leaking256" /></a>
+  <img src="https://komarev.com/ghpvc/?username=Deluxeg4&style=for-the-badge&color=7C83FD" alt="Profile views" />
 </div>
 
 ---
@@ -57,4 +59,3 @@ Hi, I’m **G** — a computer science student interested in Minecraft server so
 <div align="center">
   <sub>Building useful things for better multiplayer worlds. ✨</sub>
 </div>
-
